@@ -169,10 +169,16 @@ function init(){
 	  		this.checked = false;
 	  	}
 	  	else{
-	  		subtotal += Number(this.value) * Number(cantidad);
-	  		this.value = Number(this.value) * Number(cantidad);
-	  		cantidad = 0;
-	    	total.value = subtotal;
+	  		if(isNaN(cantidad)){
+	  			alert("la cantidad ingresada no es un número valido");
+	  			this.checked = false;
+	  		}
+	  		else{
+	  			subtotal += Number(this.value) * Number(cantidad);
+	  			this.value = Number(this.value) * Number(cantidad);
+	  			cantidad = 0;
+	    		total.value = subtotal;
+	  		}
 	  	}
 
 	  }
