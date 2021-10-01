@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    font-size: 3em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background-image: linear-gradient(to right, #e0bc13, #e4b30d, #e7a90c, #eaa00e, #ec9613);
+}
+.container form h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.container form{
+    background-color: #1c1e1f73;
+    color: #fff;
+    width: 60%;
+    padding: 30px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container form input[type=text]{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    padding: 8px 20px;
+    transition: 0.5s;
+}
+.container form button{
+    display: block;
+    margin: 10px auto;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.container form button:hover{
+    background-color: #fff;
+    color: #52105f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container form label, .container form input[type="checkbox"]{
+    margin-bottom: 10px;
+}
+
+.container h2{
+    text-align: center;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px auto;
+}
+
+.container textarea, .divs{
+    background-color: white;
+    display: block;
+    width: 60%;
+    height: 100px;
+    min-width: 300px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    margin: 20px auto;
+}
+.container textarea{
+    display: none;
+    background-color: #FFFEC2;
+}

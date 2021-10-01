@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menú</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="https://kit.fontawesome.com/550843a4c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="container">
+		<h1 id="titulo">Restaurante Salvadoreño</h1>
+		<form action="javascript:void(0);">
+			<h1>Seleccione las opciones que desea agregar a su orden</h1>
+			<input type="checkbox" name="comida" id="superC" value="7.25" class="opciones">
+			<label for="superC">$7.25 ---- Super combo(tres piezas de pollo, ensalada, papas fritas y bebida grande de su elección)</label><br>
+			<input type="checkbox" name="comida" id="personalC" value="5.75" class="opciones">
+			<label for="personalC">$5.75 ---- Combo personal(dos piezas de pollo, papa frita y bebida mediana) </label><br>
+			<input type="checkbox" name="comida" id="infantilC" value="3.50" class="opciones">
+			<label for="infantilC">$3.50 ---- Combo infantil(1 pieza de pollo, papas fritas y una bebida pequeña) </label><br>
+			<input type="checkbox" name="comida" id="ensalada" value="1.50" class="opciones">
+			<label for="ensalada">$1.50 ---- Ensalada</label><br>
+			<input type="checkbox" name="comida" id="papaFrita" value="1.25" class="opciones">
+			<label for="papaFrita">$1.25 ---- Papas fritas</label><br>
+			<input type="checkbox" name="comida" id="piezaG" value="1.75" class="opciones">
+			<label for="piezaG">$1.75 ---- Pieza de pollo grande</label><br>
+			<input type="checkbox" name="comida" id="piezaM" value="1.50" class="opciones">
+			<label for="piezaM">$1.50 ---- Pieza de pollo mediana</label><br>
+			<input type="checkbox" name="comida" id="piezaP" value="1.25"  class="opciones">
+			<label for="piezaP">$1.25 ---- Pieza de pollo Pequeña</label><br>
+			<input type="checkbox" name="comida" id="bebidaG" value="1.50"  class="opciones">
+			<label for="bebidaG">$1.50 ---- Bebida grande</label><br>
+			<input type="checkbox" name="comida" id="bebidaM" value="1.25"  class="opciones">
+			<label for="bebidaM">$1.25 ---- Bebida mediana</label><br>
+			<input type="checkbox" name="comida" id="bebidaP" value="1.00" class="opciones">
+			<label for="bebidaP">$1.00 ---- Bebida pequeña</label><br>
+			<input type="checkbox" name="comida" id="cafe" value="0.50"  class="opciones">
+			<label for="cafeC">$050 ---- Café</label><br>
+			<input type="checkbox" name="comida" id="postre" value="1.25"  class="opciones">
+			<label for="postre">$1.25 ---- Postre</label><br>
+			<input type="text" name="total" id="total" readonly>
+			<button name="confirmar" id="confirmar">Confirmar pago</button>
+		</form>
+		<h2>Tu pedido</h2>
+		<div name="pedido" id="pedido" class="divs">
+		</div>
+		<h2>Deja tu comentario o sugerencia</h2>
+		<textarea name="comentario" id="comentario">
+		</textarea>
+		<div name="divComentario" id="divComentario" class = "divs">
+		</div>
+		<br>
+		<br>
+	</div>
+</body>
+</html>
